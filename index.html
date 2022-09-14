@@ -1,50 +1,125 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Meu Portfólio</title>
-    <link rel="style" href="style.css">
-</head>
-<body>
-    <img src="foto_jessica.jpeg" height="250px" alt="Uma foto da dona do portfólio web" id="minha_foto"> <br>
+    <!--<link rel="style" href="style.css"> -->
+    <style>
+      body {
+        background-color: aquamarine;
+      }
 
-    <h2>Índice:</h2>
+      .style-box {
+        -webkit-box-sizing: content-box;
+        -moz-box-sizing: content-box;
+        box-sizing: content-box;
+        width: 160px;
+        padding: 9px;
+        overflow: hidden;
+        border: none;
+        font: normal normal bold 20px/1 "Courier New", Courier, monospace;
+        color: rgba(0, 61, 57, 1);
+        text-align: center;
+        -o-text-overflow: ellipsis;
+        text-overflow: ellipsis;
+        background: -webkit-linear-gradient(
+          -90deg,
+          rgba(183, 222, 237, 1) 0,
+          rgba(33, 180, 226, 1) 31%,
+          rgba(113, 206, 239, 1) 100%,
+          rgba(33, 180, 226, 1) 100%,
+          rgba(183, 222, 237, 1) 100%
+        );
+        background: -moz-linear-gradient(
+          180deg,
+          rgba(183, 222, 237, 1) 0,
+          rgba(33, 180, 226, 1) 31%,
+          rgba(113, 206, 239, 1) 100%,
+          rgba(33, 180, 226, 1) 100%,
+          rgba(183, 222, 237, 1) 100%
+        );
+        background: linear-gradient(
+          180deg,
+          rgba(183, 222, 237, 1) 0,
+          rgba(33, 180, 226, 1) 31%,
+          rgba(113, 206, 239, 1) 100%,
+          rgba(33, 180, 226, 1) 100%,
+          rgba(183, 222, 237, 1) 100%
+        );
+        background-position: 50% 50%;
+        -webkit-background-origin: padding-box;
+        background-origin: padding-box;
+        -webkit-background-clip: border-box;
+        background-clip: border-box;
+        -webkit-background-size: auto auto;
+        background-size: auto auto;
+        -webkit-box-shadow: 3px 1px 4px 1px rgba(0, 0, 0, 0.3);
+        box-shadow: 3px 1px 4px 1px rgba(0, 0, 0, 0.3);
+        text-shadow: 1px 1px 1px rgba(255, 255, 255, 1);
+      }
+    </style>
+  </head>
+  <body>
+    <img
+      src="foto_jessica.jpeg"
+      height="250px"
+      alt="Uma foto da dona do portfólio web"
+      id="minha_foto"
+    />
+    <br />
+
+    <h2 class="style-box">Índice:</h2>
     <ul>
-        <li><a href="#sobreMim">Sobre Mim</a></li>
-        <li><a href="#objetivo">Objetivo</a></li>
-        <li><a href="#habilidades">Habilidades</a></li>
+      <li><a href="#sobreMim">Sobre Mim</a></li>
+      <li><a href="#objetivo">Objetivo</a></li>
+      <li><a href="#habilidades">Habilidades</a></li>
     </ul>
 
-    <a id="sobreMim"><h2><strong>Sobre Mim</strong></h2></a>
-    <p1><strong>Nome:</strong></p1> Jéssica Proença <br>
-    <p1><strong>E-mail:</strong></p1> je.proenca@yahoo.com.br <br>
-    <p1><strong>Nacionalidade:</strong></p1> Brasileira<br>
-    <p1><strong>Onde moro:</strong></p1> Curitiba/PR<br>
-    <p1><strong>Formação:</strong></p1> Licenciatura em Matemática na Universidade Federal do Paraná<br>
-    <p1><strong>Onde Estudo:</strong></p1> <a href="https://www.betrybe.com/" target="_blank"><strong>Trybe Course</strong></a><br>
-    
-    <br>
-    <a id="objetivo"><h2><strong>Objetivo</strong></h2></a>
-    <p1>Estou à procura de minha primeira experiência de trabalho enquanto estudo programação na <a href="https://www.betrybe.com/" target="_blank"><strong>Trybe Course</strong></a>. Quero desenvolver minhas habilidades e também contribuir para o sucesso da empresa.</p1>
+    <a id="sobreMim"
+      ><h2><strong>Sobre Mim</strong></h2></a
+    >
+    <p1><strong>Nome:</strong></p1> Jéssica Proença <br />
+    <p1><strong>E-mail:</strong></p1> je.proenca@yahoo.com.br <br />
+    <p1><strong>Nacionalidade:</strong></p1> Brasileira<br />
+    <p1><strong>Onde moro:</strong></p1> Curitiba/PR<br />
+    <p1><strong>Formação:</strong></p1> Licenciatura em Matemática na
+    Universidade Federal do Paraná<br />
+    <p1><strong>Onde Estudo:</strong></p1>
+    <a href="https://www.betrybe.com/" target="_blank"
+      ><strong>Trybe Course</strong></a
+    ><br />
 
-    <a id="habilidades"><h2><strong>Habilidades</strong></h2> </a> 
-    <ul>    
-        <li> <strong>Proficiência em Matemática</strong> <br> </li>
-        <li> Autonomia<br> </li>
-        <li> Proatividade<br> </li>
-        <li> Flexibilidade e capacidade de se adaptar a mudanças<br> </li>
-        <li> Criatividade<br> </li>
-        <li> Aprendizado contínuo<br> </li>
-        <li> Pensamento crítico<br> </li>
-        <li> Colaboração e trabalho em equipe<br> </li>
-        <li> Capacidade de inovação<br> </li>
+    <br />
+    <a id="objetivo"
+      ><h2><strong>Objetivo</strong></h2></a
+    >
+    <p1
+      >Estou à procura de minha primeira experiência de trabalho enquanto estudo
+      programação na
+      <a href="https://www.betrybe.com/" target="_blank"
+        ><strong>Trybe Course</strong></a
+      >. Quero desenvolver minhas habilidades e também contribuir para o sucesso
+      da empresa.</p1
+    >
 
-
+    <a id="habilidades"
+      ><h2><strong>Habilidades</strong></h2>
+    </a>
+    <ul>
+      <li><strong>Proficiência em Matemática</strong> <br /></li>
+      <li>Autonomia<br /></li>
+      <li>Proatividade<br /></li>
+      <li>Flexibilidade e capacidade de se adaptar a mudanças<br /></li>
+      <li>Criatividade<br /></li>
+      <li>Aprendizado contínuo<br /></li>
+      <li>Pensamento crítico<br /></li>
+      <li>Colaboração e trabalho em equipe<br /></li>
+      <li>Capacidade de inovação<br /></li>
     </ul>
- <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br> <!-- so pra pular linha até o voltar ao inicio -->
+    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+    <!-- so pra pular linha até o voltar ao inicio -->
     <p1><a href="#minha_foto">Voltar ao inicio</a></p1>
-
-</body>
+  </body>
 </html>
