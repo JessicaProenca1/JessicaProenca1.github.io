@@ -48,3 +48,12 @@ body {
     border-radius: 20px;
     opacity: 0.8;
 }
+
+.teclado {
+    opacity: 0.8;
+    width: 1000px;
+    position: absolute;
+    left: 900px;
+    top: 0px;
+    border-bottom-left-radius: 50%;
+}
