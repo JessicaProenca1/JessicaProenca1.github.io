@@ -1,11 +1,16 @@
-/*.color1 { #331327 };
-.color2 { #991766 };
-.color3 { #d90f5a };
-.color4 { #f34739 };
-.color5 { #ff6e27 }; */
+
+/*https://coolors.co/palette/160f29-246a73-368f8b-f3dfc1-ddbea8 */
 
 body {
-    background-color: #fcc9af;
+    background-color: background: hsla(36, 68%, 85%, 1);
+
+    background: linear-gradient(90deg, hsla(36, 68%, 85%, 1) 0%, hsla(25, 44%, 76%, 1) 23%, hsla(177, 45%, 39%, 1) 72%, hsla(187, 52%, 30%, 1) 93%);
+
+    background: -moz-linear-gradient(90deg, hsla(36, 68%, 85%, 1) 0%, hsla(25, 44%, 76%, 1) 23%, hsla(177, 45%, 39%, 1) 72%, hsla(187, 52%, 30%, 1) 93%);
+
+    background: -webkit-linear-gradient(90deg, hsla(36, 68%, 85%, 1) 0%, hsla(25, 44%, 76%, 1) 23%, hsla(177, 45%, 39%, 1) 72%, hsla(187, 52%, 30%, 1) 93%);
+
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#F3DFC1", endColorstr="#DDBEA8", GradientType=1);
 }
 
 .style-box {
