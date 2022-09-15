@@ -1,6 +1,7 @@
 /*https://coolors.co/palette/efd9ce-dec0f1-b79ced-957fef-7161ef  = paleta de cores usada. Tambem é onde fiz o degradê*/
 
 body {
+    color: #0e0268;
     background: hsla(20, 51%, 87%, 1);
     background: linear-gradient(90deg, hsla(20, 51%, 87%, 1) 0%, hsla(275, 100%, 89%, 1) 34%, hsla(252, 78%, 72%, 1) 100%);
     background: -moz-linear-gradient(90deg, hsla(20, 51%, 87%, 1) 0%, hsla(275, 100%, 89%, 1) 34%, hsla(252, 78%, 72%, 1) 100%);
@@ -31,10 +32,11 @@ body {
     font-weight: bold;
 }
 
-p1 {
-    color: #0e0268;
+.box-sobre-mim {
+    
 }
 
-ul {
-    color: #0e0268;
+.minha-foto {
+    height: 250px;
+    border-radius: 50%;
 }
