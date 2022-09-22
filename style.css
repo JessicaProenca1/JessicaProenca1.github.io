@@ -29,10 +29,36 @@
   flex-wrap: nowrap;
 }
 
-.main{
+.main {
   background-color: blueviolet;
   padding-top: 50px;
   height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  /* distancia entre o article e a foto */
+}
+
+.apresentacao-buttons{
+  background-color: burlywood;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.article-apresentacao {
+  background-color: brown;
+}
+
+.buttons {
+  background-color: darkgreen;
+}
+
+.imagens{
+  background-color: black;
 }
 
 #minha_foto {
