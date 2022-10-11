@@ -6,117 +6,50 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Meu Portfólio</title>
+  <link rel="stylesheet" type="text/css" href="Semantic-UI-CSS-master/semantic.min.css">
   <link rel="stylesheet" type="text/css" href="style.css">
-  <script src="https://kit.fontawesome.com/ec75935ca1.js" crossorigin="anonymous"></script>
-  <!-- site de onde tirei meus icones free -->
-
 </head>
 
-<body class="body">
-  <header class="header-principal">
-    <h1>Portfólio Web</h1>
-    <section class="header-direita">
-      <h1>Sobre Mim</h1>
-      <h1>Projetos</h1>
-      <h1>Curriculo</h1>
+<body>
+  <header class="ui secondary pointing menu" id="headerMenu">
+    <section id="sectionMenu">
+      <h1 id="home">Portfólio Web</h1>
+    </section>
+    <section id="sectionMenu">
+      <a class="item active" href="#home">Home</a>
+      <a class="item" href="#sobreMim">Sobre Mim</a>
+      <a class="item" href="#projetos">Projetos</a>
+      <a class="item" href="#curriculo">Currículo</a>
     </section>
   </header>
 
-  <main class="main">
-    <div class="apresentacao-buttons">
-      <article class="article-apresentacao">um pequeno texto me apresentando</article>
-      <div class="buttons">
-        <button>GitHub</button>
-        <button>Linkedin</button>
-      </div>
+  <section id="hero">
+    <h1 id="souEu">Olá! Me chamo Jéssica Proença e sou uma futura Desenvolvedora Web Full Stack!</h1>
+    <div>
+      <button class="ui black button"> <i class="github icon"></i>GitHub</button>
+      <button class="ui linkedin button"><i class="linkedin icon"></i>Linkedin</button>
     </div>
-    <div class="imagens">
-      <img src="marci.png" alt="Uma foto da dona do portfólio web" id="minha_foto" class="minha-foto" />
-    </div>
-  </main>
-  <section class="section-article">
-    <article><h2>Sobre Mim</h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis blanditiis nisi neque fuga qui
-      suscipit. Facere laborum autem velit aliquam nam a veritatis expedita incidunt maiores quam corrupti, dolores
-      dolor.</article>
-    <article><h2>Projetos</h2>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta fuga saepe rem illum nobis quis minus
-      recusandae. Quos sed iure impedit, ullam, fugiat, autem suscipit rerum nulla repellendus eveniet eum.</article>
-    <article><h2>Curriculo</h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt possimus et excepturi nesciunt nostrum,
-      enim velit similique cumque. Labore nostrum aut voluptatem velit exercitationem cupiditate laborum repudiandae
-      nemo quia reiciendis.</article>
   </section>
-  <!-- 
-  <br />
-  <div>
-    <div class="minha-apresentação">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi unde dignissimos
-      eveniet, et iure dolore odit
-      aliquam consectetur quia? Autem dolorem, officiis quod laborum cupiditate necessitatibus ex incidunt accusantium
-      delectus? Lorem ipsum dolorlorem sit amet consectetur adipisicing elit. Nemo sint sequi maxime, dolorem quis
-      ratione
-      quae
-      obcaecati laborum commodi dolore voluptate libero ipsam officiis tenetur laudantium architecto assumenda. Sunt,
-      odit! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim distinctio eius nulla minima aut tempora
-      voluptatum ame </div>
-  </div>
 
- 
-  <a id="sobreMim">
-    <h2 class="style-box">Sobre Mim</h2>
-  </a>
-  <div class="sobreMimStyle">
-    <i class="fa-solid fa-user"></i>
-    <span>Nome:</span>
-    <p1>Jéssica Proença </p1><br />
-    <i class="fa-solid fa-envelope"></i>
-    <span>E-mail:</span>
-    <p1>je.proenca@yahoo.com.br </p1><br />
-    <i class="fa-solid fa-globe"></i>
-    <span>Nacionalidade:</span>
-    <p1>Brasileira</p1><br />
-    <i class="fa-solid fa-location-dot"></i>
-    <span>Onde moro:</span>
-    <p1>Curitiba/PR</p1><br />
-    <i class="fa-solid fa-landmark"></i>
-    <span>Formação:</span>
-    <p1>Licenciatura em Matemática na
-      Universidade Federal do Paraná</p1><br />
-    <i class="fa-solid fa-book"></i>
-    <span>Onde Estudo:</span>
-    <a href="https://www.betrybe.com/" target="_blank"><strong>Trybe Course</strong></a><br />
-    <i class="fa-brands fa-linkedin"></i>
-    <i class="fa-brands fa-github"></i>
-  </div>
+  <section>
+    <article class="ui raised segment">
+      <h2 id="sobreMim">Sobre Mim</h2>Moradora de Curitiba/PR e amante de cachorros. Sempre gostei de lógica e vi no
+      desenvolvimento web uma maneira de unir o útil ao agradável.
+    </article>
+    <article class="ui raised segment">
+      <h2 id="projetos">Projetos</h2> Sou estudante da Trybe Course e no momento meus projetos são os realizados na
+      Trybe. Em breve projetos exclusivos meus.
+    </article>
+    <article class="ui raised segment">
+      <h2 id="curriculo">Curriculo</h2> Sou formada em Matemática - Licenciatura pela UFPR. Trabalhei dos 13 aos 23 anos
+      na Locadora de Filmes dos meus pais.
+    </article>
+  </section>
 
-  <br />
-  <a id="objetivo">
-    <h2 class="style-box">Objetivo</h2>
-  </a>
-  <p1>Estou à procura de minha primeira experiência de trabalho enquanto estudo
-    programação na
-    <a href="https://www.betrybe.com/" target="_blank"><strong>Trybe Course</strong></a>. Quero desenvolver minhas
-    habilidades e também contribuir para o sucesso
-    da empresa.
-  </p1>
-
-  <a id="habilidades">
-    <h2 class="style-box">Habilidades</h2>
-  </a>
-  <ul>
-    <li><strong>Proficiência em Matemática</strong> <br /></li>
-    <li>Autonomia<br /></li>
-    <li>Proatividade<br /></li>
-    <li>Flexibilidade e capacidade de se adaptar a mudanças<br /></li>
-    <li>Criatividade<br /></li>
-    <li>Aprendizado contínuo<br /></li>
-    <li>Pensamento crítico<br /></li>
-    <li>Colaboração e trabalho em equipe<br /></li>
-    <li>Capacidade de inovação<br /></li>
-  </ul>
-  <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-  so pra pular linha até o voltar ao inicio -->
-  <!-- <div class="button-inicio"><i class="fa-solid fa-arrow-up"></i>
-    <p1><a href="#minha_foto">Voltar ao inicio</a></p1>
-  </div> -->
-
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js"
+    integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+  <script src="Semantic-UI-CSS-master/semantic.min.js"></script>
+  <script src="script.js"></script>
 </body>
 
 </html>
