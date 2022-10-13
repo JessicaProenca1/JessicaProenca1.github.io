@@ -42,3 +42,20 @@
 #souEu {
   font-size: 15px;
 }
+
+.ui.segment {
+  margin: 50px 150px 0 150px;
+}
+
+.reveal {
+  transform: translateY(150px);
+  opacity: 0;
+  transition: all 2s ease;
+}
+
+.reveal.active {
+  transform: translateY(0px);
+  opacity: 1;
+}
+
+/* parte do css para fazer a animação do 'sobre mim/projeto/curriculo' */
